@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fitness Tracker App</title>
+</head>
+<body>
+<header>
+    <h1>Fitness Tracker</h1>
+    <nav>
+        <a href="#login">Login</a>
+        <a href="#register">Register</a>
+        <a href="#log-workout">Log Workout</a>
+        <a href="#progress">View Progress</a>
+    </nav>
+</header>
+<main>
+    <section id="login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <section id="register">
+        <h2>Register</h2>
+        <form id="register-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    <section id="log-workout">
+        <h2>Log Workout</h2>
+        <form id="workout-form">
+            <input type="text" placeholder="Exercise" required>
+            <input type="number" placeholder="Duration (minutes)" required>
+            <input type="number" placeholder="Calories Burned" required>
+            <button type="submit">Log</button>
+        </form>
+    </section>
+    <section id="progress">
+        <h2>Your Progress</h2>
+        <div id="progress-display">
+            <!-- Progress will be displayed here -->
+        </div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
